@@ -48,3 +48,11 @@ c
 dc
 d
 cd
+f
+rf
+rf
+r
+fr
+f
+rf
+
