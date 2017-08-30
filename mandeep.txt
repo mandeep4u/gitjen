@@ -33,12 +33,3 @@ hbkb
 hh
 j
 j
-ced
-cedc
-dw
-cdw
-c
-wdc
-ev
-ef
-vef
