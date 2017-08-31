@@ -4,3 +4,6 @@ os: linux
 files:
   - source: mandeep.txt
     destination: /var/www/html
+hooks:
+  BeforeInstall:
+    - location: script.sh
