@@ -5,5 +5,15 @@ files:
   - source: mandeep.txt
     destination: /var/www/html
 hooks:
+  BeforeInstall:
+    - location: script.sh
+      timeout: 180
   AfterInstall:
     - location: script.sh
+      timeout: 180
+  ApplicationStart:
+    - location: script.sh
+      timeout: 180
+  ValidateService:
+    - location: script.sh
+      timeout: 180
