@@ -1,4 +1,4 @@
 #!/bin/sh
 
 
-apt-get install apache2 apache2-utils 
+apt-get install -y apache2 apache2-utils 
