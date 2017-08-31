@@ -4,6 +4,10 @@ os: linux
 files:
   - source: mandeep.txt
     destination: /var/www/html
+  - source: 000-default.conf
+    destination: /etc/apache2/sites-enabled
+  - source: ind.html
+    destination: /var/www/html
 hooks:
   BeforeInstall:
     - location: script.sh
