@@ -1,3 +1,6 @@
+version: 0.0
+os: linux
+
 files:
   - source: mandeep.txt
     destination: /var/www/html
